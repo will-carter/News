@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 require 'Watir'
 caps = Selenium::WebDriver::Remote::Capabilities.chrome
 caps[:chrome_options] = {detach: true}
